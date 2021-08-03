@@ -3,7 +3,7 @@
 
 ## Number of replicas to deploy
 ##
-replicaCount: 2
+replicaCount: 3
 
 
 service:
