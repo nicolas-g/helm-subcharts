@@ -3,23 +3,23 @@ entries:
   ngtest:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-08-03T09:22:36.785257-04:00"
+    created: "2021-08-03T09:25:43.960916-04:00"
     description: Helm test chart
     digest: f7478b55cd60e3b77cbd47e190b8cf37a6eb2224da6c87d6027d70b3446f8b7f
     name: ngtest
     type: application
     urls:
-    - https://nicolas-g.github.io/helm-subcharts/ngtest-0.1.0.tgz
+    - https://nicolas-g.github.io/helm-subcharts/helm-chart-sources/ngtest-0.1.0.tgz
     version: 0.1.0
   ngtest2:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2021-08-03T09:22:36.785519-04:00"
+    created: "2021-08-03T09:25:43.961185-04:00"
     description: Helm test chart II
     digest: 44d330b46da805aaa01e4ea9944bf3d750995d209a2723c998ac8fefd96b2d47
     name: ngtest2
     type: application
     urls:
-    - https://nicolas-g.github.io/helm-subcharts/ngtest2-0.2.0.tgz
+    - https://nicolas-g.github.io/helm-subcharts/helm-chart-sources/ngtest2-0.2.0.tgz
     version: 0.2.0
-generated: "2021-08-03T09:22:36.784782-04:00"
+generated: "2021-08-03T09:25:43.960394-04:00"
