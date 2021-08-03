@@ -5,7 +5,7 @@ nginx: #<! dependency helm chart name
 
   ## Number of replicas to deploy
   ##
-  replicaCount: 3
+  replicaCount: 1
 
 
   service:
