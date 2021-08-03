@@ -1,30 +1,32 @@
 
-# https://github.com/bitnami/charts/tree/master/bitnami/nginx/
+nginx: #<! dependency helm chart name
 
-## Number of replicas to deploy
-##
-replicaCount: 3
+  # https://github.com/bitnami/charts/tree/master/bitnami/nginx/
+
+  ## Number of replicas to deploy
+  ##
+  replicaCount: 3
 
 
-service:
-    ## @param service.type Service type
-    ##
-    type: ClusterIP
+  service:
+      ## @param service.type Service type
+      ##
+      type: ClusterIP
 
-## NGINX containers' liveness and readiness probes.
-## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes
-##
-livenessProbe:
-  enabled: true
-  initialDelaySeconds: 30
-  timeoutSeconds: 5
-  periodSeconds: 10
-  failureThreshold: 6
-  successThreshold: 1
-readinessProbe:
-  enabled: true
-  initialDelaySeconds: 5
-  timeoutSeconds: 3
-  periodSeconds: 5
-  failureThreshold: 3
-  successThreshold: 1
+  ## NGINX containers' liveness and readiness probes.
+  ## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes
+  ##
+  livenessProbe:
+    enabled: true
+    initialDelaySeconds: 30
+    timeoutSeconds: 5
+    periodSeconds: 10
+    failureThreshold: 6
+    successThreshold: 1
+  readinessProbe:
+    enabled: true
+    initialDelaySeconds: 5
+    timeoutSeconds: 3
+    periodSeconds: 5
+    failureThreshold: 3
+    successThreshold: 1
