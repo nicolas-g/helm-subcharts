@@ -1,6 +1,7 @@
 ---
 apiVersion: v2
 name: nginx-subchart
+description: Helm subchart for nginx
 type: application
 version: 9.4.0-v1
 appVersion: "1.21.1"
