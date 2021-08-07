@@ -1,0 +1,11 @@
+---
+apiVersion: v2
+name: prometheus-subchart
+description: Helm subchart for prometheus
+type: application
+version: 14.5.0-v1
+appVersion: "2.26.0"
+dependencies:
+- name: prometheus #! Name is important in values file
+  version: 14.5.0
+  repository: https://prometheus-community.github.io/helm-charts

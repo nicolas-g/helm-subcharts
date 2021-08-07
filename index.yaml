@@ -3,7 +3,7 @@ entries:
   nginx-subchart:
   - apiVersion: v2
     appVersion: 1.21.1
-    created: "2021-08-03T09:54:20.17812-04:00"
+    created: "2021-08-07T17:12:46.514029-04:00"
     dependencies:
     - name: nginx
       repository: https://charts.bitnami.com/bitnami
@@ -15,4 +15,19 @@ entries:
     urls:
     - https://nicolas-g.github.io/helm-subcharts/nginx-subchart-9.4.0-v1.tgz
     version: 9.4.0-v1
-generated: "2021-08-03T09:54:20.170488-04:00"
+  prometheus-subchart:
+  - apiVersion: v2
+    appVersion: 2.26.0
+    created: "2021-08-07T17:12:46.519474-04:00"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 14.5.0
+    description: Helm subchart for prometheus
+    digest: cb8ca77b484b8de029e2d14b56312e218011654f5643362af9e07ad98721a2c9
+    name: prometheus-subchart
+    type: application
+    urls:
+    - https://nicolas-g.github.io/helm-subcharts/prometheus-subchart-14.5.0-v1.tgz
+    version: 14.5.0-v1
+generated: "2021-08-07T17:12:46.509436-04:00"
