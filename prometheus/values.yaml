@@ -1,4 +1,6 @@
-prometheus:
+
+prometheus: #<! dependency helm chart name
+
   rbac:
     create: true
 
